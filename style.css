@@ -8,8 +8,8 @@
 }
 
 img {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
 }
 
 body {
@@ -56,10 +56,6 @@ header, footer {
     padding: 0 10px;
 }
 
-/* .intro {
-    margin: 20px;
-} */
-
 .intro h1 {
     font-size: 48px;
     font-weight: 800;
@@ -74,7 +70,6 @@ header, footer {
 }
 
 .btn-first {
-    margin: 20px 0;
     text-decoration: none;
     background-color: #3882f6;
     color: #F9FAF8;
@@ -82,14 +77,55 @@ header, footer {
     border-radius: 8px
 }
 
+.content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
 .content .info {
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.content ul {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    font-size: 20px;
+}
+
+
+
+.content .path {
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+.content .tech {
+    text-align: center;
+    padding: 20px;
 }
 
 .inspiration {
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    padding: 100px;
 }
 
 .quote {
@@ -102,14 +138,28 @@ header, footer {
 .quote-person {
     font-size: 24px;
     font-weight: bold;
+    align-self: flex-end;
+    margin-right: 20%;
 }
 
 .action {
     background-color: #3882f6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    padding: 60px 100px;
+    margin: 60px 140px;
+    border-radius: 20px;
 }
 
 .action h5 {
     font-size: 24px;
+    margin: 10px 0;
+}
+
+.action p {
+    font-size: 18px;
 }
 
 .btn-second {
