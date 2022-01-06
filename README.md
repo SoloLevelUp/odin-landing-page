@@ -1,6 +1,8 @@
 # odin-landing-page
 
-<!-- Illustrations Credit -->
+Illustrations Full Credit
+
+
 "main-bg-svg":
 https://lottiefiles.com/71619-coding
 
