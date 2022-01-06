@@ -1,13 +1,123 @@
 @import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap');
 
 * {
-font-family: 'Roboto', sans-serif;
-padding: 0;
-margin: 0;
-
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
 img {
     height: 250px;
     width: 250px;
 }
+
+body {
+    min-height: 100vh;
+}
+
+.section {
+    display:flex;
+    justify-content: flex-start;
+    position: relative;
+    flex-direction: column;
+    width: 100%
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 30px 200px;
+    gap: 100px;
+}
+
+.hero-text, .main-text {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.navigation a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 0 10px;
+}
+
+/* .intro {
+    margin: 20px;
+} */
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+    margin: 20px 0;
+}
+
+.intro p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 20px 0;
+}
+
+.btn-first {
+    margin: 20px 0;
+    text-decoration: none;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 12px 36px;
+    border-radius: 8px
+}
+
+.content .info {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.inspiration {
+    background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-person {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action {
+    background-color: #3882f6;
+}
+
+.action h5 {
+    font-size: 24px;
+}
+
+.btn-second {
+    color: #F9FAF8;
+    text-decoration: none;
+    padding: 12px 36px;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    border: 3px solid;
+}
+
