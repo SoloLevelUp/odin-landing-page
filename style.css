@@ -29,7 +29,7 @@ header {
     flex-direction: column;
     position: relative;
     padding: 30px 200px;
-    gap: 100px;
+    gap: 60px;
 }
 
 .hero-text, .main-text {
@@ -61,6 +61,8 @@ header, footer {
     font-weight: 800;
     color:#F9FAF8;
     margin: 20px 0;
+    word-spacing: 10px;
+
 }
 
 .intro p {
@@ -105,12 +107,14 @@ header, footer {
     font-size: 20px;
 }
 
-
-
 .content .path {
     border: 5px solid #3882f6;
     border-radius: 10%;
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .content .tech {
@@ -171,3 +175,11 @@ header, footer {
     border: 3px solid;
 }
 
+footer {
+    font-size: 16px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
